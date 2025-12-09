@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <main class="flexcol">
+      <form action="" id="quizform">
+        <input type="number" id="amount" />
+        <select id="catagory"></select>
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="getquiz">Get quiz!</button>
+      </form>
+      <div class="flexcol quizcard">
+        <h3>Put question here</h3>
+        <div>
+          <form id="answerform">
+            <button class="answerbutton" id="answer1">""</button>
+            <button class="answerbutton" id="answer2">""</button><br />
+            <button class="answerbutton" id="answer3">""</button>
+            <button class="answerbutton" id="answer4">""</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
